@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  #navbaraccount {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    border-left: 1px solid white;
+  }
+  
+  .css-d9ml5t-MuiDrawer-docked .MuiDrawer-paper {
+    z-index: 1;
+  }
+  
+  .css-k008qs {
+    display: inline-block;
+  }
+  
+  .drawer {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(68, 127, 238), rgb(53, 114, 150));
+    color: white !important;
+  }
+  
+  #contentdisp {
+    display: flex;
+    margin-top: 4rem;
+  }
+  
+  #mainoverviewbox {
+    display: flex;
+    gap: 2rem;
+    margin: 0 2rem;
+  }
+  
+  #mainoverview {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem 0 0;
+  }
+  
+  .contentflex {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  
+  .colorbar {
+    background-color: rgb(3, 151, 3) !important;
+    height: 5rem;
+    width:0.5rem;
+  }
+  
+  #icon {
+    height: 2rem;
+    color: rgb(133, 133, 133);
+  }
+  
+  #chart {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-left: 1.5rem !important;
+  }
+  
+  #pieChart {
+    display: flex;
+  }
+  
+  #heading {
+    color: grey;
+  }
+  
+  #progressandtext {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 1rem 2rem 5rem 2rem;
+  }
+  
+  .progresstitle {
+    display: flex !important;
+    justify-content: space-between;
+  }
+  
+  .card-header {
+    color: rgb(97, 96, 96);
+  }
+  
+  .cardText {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 2rem 1rem !important;
+    font-size: 1.2rem !important;
+  }
+  
+  #developementcard {
+    height: 100%;
+  }
